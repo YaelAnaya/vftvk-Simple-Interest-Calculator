@@ -18,9 +18,9 @@ function computeInterest(){
     let year = new Date().getFullYear() + parseInt(yearsValue);
     let result = document.getElementById("result")
     result.innerHTML = " If you deposit <mark>" + principalValue
-                        + "</mark>,<br> at an interest rate of <mark> " + rateValue
-                        + "%</mark><br> You will receive an amount of <mark>"
-                        + calculatedInterest + "</mark>,<br> in the year <mark>" + year + "</mark><br>";
+                        + "</mark>,<br> at an interest rate of <mark> " + rateValue + "%."  + "</mark><br> "
+                        + "You will receive an amount of <mark>" + calculatedInterest + "</mark>,<br> "
+                        + "in the year <mark>" + year + "</mark><br>";
 }
 
 function initComponents(){
